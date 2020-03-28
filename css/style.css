@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.container{
+	margin: 0 auto;
+	width: 90%
+}
+.logo, .navigation, .header, .intro,  
+.footer, .service-item, .gallary-item{
+	background-color:#ffeaa7
+}
+.main{
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+	height: 100px;
+}
+.navigation{
+	width: 78%;
+	float: right;
+	height: 100px;
+}
+.gallery{
+	margin: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.gallary-item{
+	height: 200px;
+	width: 180px;
+}
+.intro{
+	height: 100px; 
+	margin: 10px 0;
+
+}
+.services{
+  display: flex;
+  justify-content: space-around;
+}
+.service-item{
+	height: 300px;
+	width: 30%
+}
+.footer{
+	height: 50px;
+}
